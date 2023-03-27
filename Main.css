@@ -1,0 +1,45 @@
+button{
+	font-family:"Courier New";
+	border:5px solid black;
+	text-transform:uppercase;
+	padding:16px 32px;
+	font-size:16px;
+	margin:4px 2px;
+	border-radius:10px;
+	background-color:#980000;
+}
+body{
+	background-color:grey;
+	color:#980000;
+}
+p{
+	font-family:"verdana";
+}
+.aboutmeimage{
+	height:200px;
+	width:200px;	
+	float:left;
+	padding:10px;
+}
+.headerimagebig{
+	margin-left:155px;
+}
+.backbutton{
+	height:30px;
+	width:100px;
+	padding:0px;
+}
+.imagetext{
+	position:absolute;
+	bottom:50px
+}
+.column{
+	float:left;
+	width:33%;
+}
+.row:after{
+	content:"";
+	display:grid;
+	clear:both;
+	grid-template-columns:1fr 1fr 1fr;
+}
